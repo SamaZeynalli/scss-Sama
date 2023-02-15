@@ -1,12 +1,14 @@
 %btn-shared {
     cursor: pointer;
     border: none;
+    height: 60px;
 }
 
 .btn {
     &-main {
         @extend %btn-shared;
-        height: 60px;
         color: $dark-color;
+        background: $secondary-color;
+        padding: auto 57px;
     }
 }

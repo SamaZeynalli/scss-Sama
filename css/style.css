@@ -1,8 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;700&display=swap");
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn-main {
+  cursor: pointer;
+  border: none;
+  height: 60px;
+}
+
+.btn-main {
+  color: #000000;
+  background: #E5E5E5;
+  padding: auto 57px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  margin: 50px auto;
 }
 
 img {
@@ -15,4 +36,21 @@ a {
 
 ul {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+ul li a {
+  color: #263238;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-nav img {
+  width: 100px;
+  height: 54px;
 }/*# sourceMappingURL=style.css.map */
