@@ -39,4 +39,39 @@
         line-height: 30px;
         padding: 0 51px;
     }
+    &-section-d:not(span) {
+        cursor: pointer;
+        height: 45px;
+        padding: 0 20px;
+        border: none;
+        border-radius: 5px;
+        background: #EEEEEE;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        color: #263238;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #546269;
+        }
+    }
+    &-contact {
+        cursor: pointer;
+        height: 80px;
+        color: $primary-color;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        background-color: $button-color;
+        border-radius: 10px;
+        border: none;
+        padding: 0 80px;
+    }
 }

@@ -72,3 +72,53 @@
 
     }
 }
+
+.section-c {
+    .container {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 194px;
+        div:not(.about) {
+            width: 50%;
+            .about {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 160px;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    span {
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #8F95A5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-d {
+    margin: 230px auto;
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .price {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 100px;
+        div {
+            img {
+                height: 310px;
+            }
+            p {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

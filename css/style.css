@@ -72,6 +72,41 @@ p {
   line-height: 30px;
   padding: 0 51px;
 }
+.btn-section-d:not(span) {
+  cursor: pointer;
+  height: 45px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 5px;
+  background: #EEEEEE;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #263238;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.btn-section-d:not(span) span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #546269;
+}
+.btn-contact {
+  cursor: pointer;
+  height: 80px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #263238;
+  border-radius: 10px;
+  border: none;
+  padding: 0 80px;
+}
 
 * {
   margin: 0;
@@ -111,6 +146,18 @@ ul li a {
 .main-nav img {
   width: 100px;
   height: 54px;
+}
+
+footer .container {
+  margin-top: 130px;
+  padding: 30px 0;
+  border-top: 1px solid #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container div {
+  color: #8F95A5;
 }
 
 .section-a {
@@ -176,4 +223,73 @@ ul li a {
   margin-top: 20px;
   align-items: center;
   justify-content: space-between;
+}
+
+.section-c .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 194px;
+}
+.section-c .container div:not(.about) {
+  width: 50%;
+}
+.section-c .container div:not(.about) .about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 160px;
+}
+.section-c .container div:not(.about) .about div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-c .container div:not(.about) .about div span {
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+}
+
+.section-d {
+  margin: 230px auto;
+}
+.section-d h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-d .price {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 100px;
+}
+.section-d .price div img {
+  height: 310px;
+}
+.section-d .price div p {
+  margin-bottom: 30px;
+}
+
+.contact .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 110px;
+}
+.contact .container div p {
+  margin: 37px auto 52px auto;
+}
+.contact .container div .enter {
+  display: flex;
+  gap: 12px;
+}
+.contact .container div .enter .email {
+  flex: 1;
+  border: 1px solid #8F95A5;
+  border-radius: 10px;
+}
+.contact .container div .enter .email input {
+  height: 80px;
+  padding: 0 33px;
 }/*# sourceMappingURL=style.css.map */
