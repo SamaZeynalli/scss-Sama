@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./sass/style.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />s
 </head>
 <body>
     <!--header-->
@@ -16,23 +17,28 @@
             <nav class="main-nav">
                 <img src="./images/Britlex.png" alt="Learning">
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="skills.html">Skills</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="pricing.html">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="contacts.html">Contacts</a>
-                    </li>
+                        <li class="tablet-hidden mobile-hidden">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="tablet-hidden mobile-hidden">
+                            <a href="skills.html">Skills</a>
+                        </li>
+                        <li class="tablet-hidden mobile-hidden">
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="tablet-hidden mobile-hidden">
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="tablet-hidden mobile-hidden">
+                            <a href="contacts.html">Contacts</a>
+                        </li>
+                        <li class="desktop-hidden">
+                            <a href="">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </li>
                 </ul>
-                <button class="btn-main">Let's Talk</button>
+                <button class="btn-main tablet-hidden mobile-hidden">Let's Talk</button>
             </nav>
         </div>
     </header>
@@ -44,7 +50,7 @@
             <div class="section-1">
                 <div class="section-title">
                     <h1>Learn Any Foreign Language</h1>
-                    <img src="./images/light-bulb-svgrepo-com 1.png" alt="">
+                    <img class="mobile-hidden" src="./images/light-bulb-svgrepo-com 1.png" alt="">
                 </div>
                 
                 <p>With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>

@@ -1,7 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;700&display=swap");
+@media (max-width: 576px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  header .desktop-hidden {
+    display: flex !important;
+  }
+  .section-a {
+    margin: 90px auto !important;
+  }
+  .section-a .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 17px;
+  }
+  .section-a .container .section-1 {
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+  }
+  .section-b .box-color {
+    width: 50%;
+  }
+  .btn-section-b {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+  .section-c .container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .section-c .container div {
+    width: 100% !important;
+  }
+  .section-c .container .about {
+    gap: 120px !important;
+  }
+  .section-d {
+    margin: 130px auto !important;
+  }
+  .section-d .container {
+    width: 60%;
+    align-items: center;
+  }
+  .section-d .container .price {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .tablet-hidden {
+    display: none !important;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  header .desktop-hidden {
+    display: flex !important;
+  }
+  .section-b .box-color {
+    padding: 0 10px !important;
+  }
+  .btn-section-a {
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    height: 65px;
+    padding: 0 67px !important;
+  }
+  .btn-section-b {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    height: 50px;
+    padding: 0 43px;
+  }
+}
 .container {
   width: 90%;
   margin: auto;
+}
+
+.desktop-hidden {
+  display: none !important;
 }
 
 h1 {
@@ -138,12 +234,12 @@ ul li a {
   color: #263238;
 }
 
-.main-nav {
+header .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.main-nav img {
+header .main-nav img {
   width: 100px;
   height: 54px;
 }
